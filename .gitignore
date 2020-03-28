@@ -1,4 +1,5 @@
 *.exe
-Data/
+Data
+Download
 App/apache-tomcat
 App/PlantUML

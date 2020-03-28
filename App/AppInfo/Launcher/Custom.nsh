@@ -16,8 +16,8 @@ Var PortableAppsBrowser
 	ClearErrors
 	${If} ${FileExists} $PortableAppsDirectory\FirefoxPortable
 		StrCpy $PortableAppsBrowser $PortableAppsDirectory\FirefoxPortable\FirefoxPortable.exe
-	${ElseIf} ${FileExists} $PortableAppsDirectory\ChromePortable
-		StrCpy $PortableAppsBrowser $PortableAppsDirectory\ChromePortable\ChromePortable.exe
+	${ElseIf} ${FileExists} $PortableAppsDirectory\GoogleChromePortable
+		StrCpy $PortableAppsBrowser $PortableAppsDirectory\GoogleChromePortable\GoogleChromePortable.exe
 	${ElseIf} ${FileExists} $PortableAppsDirectory\OperaPortable
 		StrCpy $PortableAppsBrowser $PortableAppsDirectory\OperaPortable\OperaPortable.exe
 	${Else}
@@ -62,12 +62,7 @@ ${SegmentInit}
 	${FindPortableAppsBrowser}
 	${If} $JavaMode == find
 	${OrIf} $JavaMode == require
-		${If} $Bits == 64
-			${FindCommonJavaDirectory} '64'
-		${EndIf}
-		${If} $JavaDirectory == ''
-			${FindCommonJavaDirectory} ''
-		${EndIf}
+		${FindCommonJavaDirectory} ''
 		${IfNot} ${FileExists} $JavaDirectory
 			ClearErrors
 			ReadRegStr $0 HKLM "Software\JavaSoft\Java Runtime Environment" CurrentVersion
