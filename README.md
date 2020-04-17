@@ -15,6 +15,18 @@ PlantUML uses well-formed and human-readable code to render the diagrams.
 * 32-bit or 64-bit version of Windows.
 * 32-bit Java. 
 
+## Support matrix
+
+| OS              | 32-bit             | 64-bit              | 
+|-----------------|:------------------:|:-------------------:|
+| Windows XP      | ![ns][nd]          | ![ns][nd]           | 
+| Windows Vista   | ![ps][ps]          | ![ps][ps]           | 
+| Windows 7       | ![ps][ps]          | ![ps][ps]           |  
+| Windows 8       | ![ps][ps]          | ![ps][ps]           |  
+| Windows 10      | ![fs][fs]          | ![fs][fs]           |
+
+Legend: ![ns][ns] not supported;  ![nd][nd] no data; ![ps][ps] supported but not verified; ![fs][fs] verified;
+
 ## Status
 
 This PortableApp project is in early alpha stage. 
@@ -38,3 +50,7 @@ To build the installer run the following command in the root of the git reposito
 ```
 powershell Other/Update/Update.ps1
 ```
+[nd]: Other/Icons/no_data.svg
+[ns]: Other/Icons/no_support.svg
+[ps]: Other/Icons/probably_supported.svg
+[fs]: Other/Icons/full_support.svg
