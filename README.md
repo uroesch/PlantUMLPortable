@@ -2,6 +2,7 @@
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/uroesch/PlantUMLPortable?include_prereleases)](https://github.com/uroesch/PlantUMLPortable/releases)
 [![Runs on](https://img.shields.io/badge/runs%20on-Win64%20%26%20Win32-blue)](#runtime-dependencies)
 [![Depends on](https://img.shields.io/badge/depends%20on-Java-blue)](#runtime-dependencies)
+![GitHub All Releases](https://img.shields.io/github/downloads/uroesch/PlantUMLPortable/total)
 
 # PlantUML Server Portable for PortableApps.com
 
