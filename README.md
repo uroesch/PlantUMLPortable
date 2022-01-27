@@ -20,8 +20,8 @@ PlantUML uses well-formed and human-readable code to render the diagrams.
 
 | OS              | 32-bit             | 64-bit              | 
 |-----------------|:------------------:|:-------------------:|
-| ReactOS 0.4.14  | ![nd][nd]          | ![nd][nd]           |
-| ReactOS 0.4.15  | ![nd][nd]          | ![nd][nd]           |
+| ReactOS 0.4.14  | ![ns][ns]          | ![na][na]           |
+| ReactOS 0.4.15  | ![ns][ns]          | ![ns][ns]           |
 | Windows XP      | ![ns][nd]          | ![ns][nd]           | 
 | Windows Vista   | ![ps][ps]          | ![ps][ps]           | 
 | Windows 7       | ![ps][ps]          | ![ps][ps]           |  
