@@ -1,4 +1,5 @@
-[![Build](https://github.com/uroesch/PlantUMLPortable/workflows/build-package/badge.svg)](https://github.com/uroesch/PlantUMLPortable/actions?query=workflow%3Abuild-package)
+[![Build](https://github.com/uroesch/PlantUMLPortable/workflows/build-linux/badge.svg)](https://github.com/uroesch/PlantUMLPortable/actions?query=workflow%3Abuild-linux)
+[![Build](https://github.com/uroesch/PlantUMLPortable/workflows/build-windows/badge.svg)](https://github.com/uroesch/PlantUMLPortable/actions?query=workflow%3Abuild-windows)
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/uroesch/PlantUMLPortable?include_prereleases)](https://github.com/uroesch/PlantUMLPortable/releases)
 [![Runs on](https://img.shields.io/badge/runs%20on-Win64%20%26%20Win32-blue)](#runtime-dependencies)
 [![Depends on](https://img.shields.io/badge/depends%20on-Java-blue)](#runtime-dependencies)
