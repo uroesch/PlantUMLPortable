@@ -9,24 +9,24 @@
 
 <img src="App/AppInfo/appicon_128.png" align=left>
 
-[PlantUML](https://plantuml.com/) is an open-source tool allowing users to create UML diagrams from a plain text language. The language of PlantUML is an example of a Domain-specific language. It uses Graphviz software to lay out its diagrams. It has been used to allow blind students to work with UML. PlantUML also helps blind software engineers to design and read UML diagrams. 
+[PlantUML](https://plantuml.com/) is an open-source tool allowing users to create UML diagrams from a plain text language. The language of PlantUML is an example of a Domain-specific language. It uses Graphviz software to lay out its diagrams. It has been used to allow blind students to work with UML. PlantUML also helps blind software engineers to design and read UML diagrams.
 
-PlantUML uses well-formed and human-readable code to render the diagrams. 
+PlantUML uses well-formed and human-readable code to render the diagrams.
 
 ## Runtime dependencies
 * 32-bit or 64-bit version of Windows.
-* 32-bit Java. 
+* 32-bit Java.
 
 ## Support matrix
 
-| OS              | 32-bit             | 64-bit              | 
+| OS              | 32-bit             | 64-bit              |
 |-----------------|:------------------:|:-------------------:|
 | ReactOS 0.4.14  | ![ns][ns]          | ![na][na]           |
 | ReactOS 0.4.15  | ![ns][ns]          | ![ns][ns]           |
-| Windows XP      | ![ns][nd]          | ![ns][nd]           | 
-| Windows Vista   | ![ps][ps]          | ![ps][ps]           | 
-| Windows 7       | ![ps][ps]          | ![ps][ps]           |  
-| Windows 8       | ![ps][ps]          | ![ps][ps]           |  
+| Windows XP      | ![ns][nd]          | ![ns][nd]           |
+| Windows Vista   | ![ps][ps]          | ![ps][ps]           |
+| Windows 7       | ![ps][ps]          | ![ps][ps]           |
+| Windows 8       | ![ps][ps]          | ![ps][ps]           |
 | Windows 10      | ![fs][fs]          | ![fs][fs]           |
 | Windows 11      | ![na][na]          | ![ps][ps]           |
 
@@ -34,7 +34,7 @@ Legend: ![ns][ns] not supported; ![na][na] not applicable; ![nd][nd] no data; ![
 
 ## Status
 
-This PortableApp project is in early alpha stage. 
+This PortableApp project is in early alpha stage.
 
 ## Todo
 - [ ] Documentation
