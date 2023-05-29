@@ -101,6 +101,15 @@ Legend:
 
 This PortableApp project is in alpha stage.
 
+== Usage
+
+When the application starts a CMD window with the Tomcat server process
+starts up and shortly thereafter either the PortableApps browsers or the
+operating systems' default browser will start pointing to the
+`http://localhost:8080/plantuml`. The screen looks like the screenshot below.
+
+image:plantuml-screen.png[width="400"]
+
 // Start include INSTALL.adoc
 == Installation
 
